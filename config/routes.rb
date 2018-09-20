@@ -6,6 +6,8 @@ Rails.application.routes.draw do
   get 'posts/delete'
   namespace :api do
     #API ROUTES SHOULD GO HERE
+    resources :posts
+  end
   end
 
   #Do not place any routes below this one
